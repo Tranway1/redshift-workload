@@ -1,0 +1,1 @@
+create table lineitem_copy as (select * from $(lineitem), $(region) where extract(day from l_shipdate) <= 5);

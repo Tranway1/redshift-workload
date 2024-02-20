@@ -1,0 +1,1 @@
+create table customer_copy as (select * from $(customer), $(region) where c_mktsegment = 'MACHINERY');

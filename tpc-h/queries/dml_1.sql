@@ -1,0 +1,1 @@
+create table region_copy as (select * from $(region));
